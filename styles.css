@@ -1,0 +1,83 @@
+body{
+  font-family: "Montserrat",sans-serif;
+  margin: 0px;
+  background-image: url(bg.jpg);
+}
+main{
+  background-color: RGBA(0,0,0,0.7);
+  border-radius: 10px;
+  margin: 40px;
+  margin-bottom: 0px;
+  min-height: 89vh;
+}
+section{
+  /* background-color: black; */
+  /* width: 95%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+  width: 90%;
+  max-width: 400px;
+  background-color: #1c1b1d;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 23px;
+  font-family: 'Baloo 2', cursive;
+}
+h1{
+  /* margin-bottom: ; */
+  padding-top: 15px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Press Start 2P', cursive;
+  /* font-family: 'Belanosima', sans-serif; */
+  /* background-color: none; */
+}
+.display{
+  background-color: #eeeeee;
+  height: 100px;
+  width: 90%;
+  text-align: right;
+  padding: 20px;
+  font-size: 50px;
+}
+.display1{
+  opacity: 0.7;
+  font-size: 20px;
+  height: 20px;
+  /* overflow: hidden; */
+}
+.result{
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+  font-size: 20px;
+  opacity:0.3;
+}
+.buttons{
+  color: white;
+  display: grid;
+  grid-template: repeat(4, 1fr)/repeat(4,1fr);
+}
+.button{
+  border: 1px solid rgba(92, 92, 92, 0.137);
+  display: inline-block;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  cursor: pointer;
+}
+.button:hover{
+  background: #dddddd;
+  color:black;
+}
+.btn-0{
+  grid-column: 1/3;
+}
